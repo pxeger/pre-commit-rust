@@ -21,3 +21,7 @@
   - id: fmt
     args: ['--verbose', '--edition', '2018', '--']
 ```
+
+# Licence
+
+Material in this repository is not substantial enough to be copyrightable, so you can do what you like with it.
