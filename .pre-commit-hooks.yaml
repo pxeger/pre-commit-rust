@@ -3,6 +3,7 @@
   description: Format files with cargo fmt.
   entry: cargo fmt
   language: rust
+  language_version: nightly
   types: [rust]
   args: ["--"]
 - id: cargo-check
@@ -10,6 +11,7 @@
   description: Check the package for errors.
   entry: cargo check
   language: rust
+  language_version: nightly
   types: [rust]
   pass_filenames: false
 - id: clippy
@@ -17,6 +19,7 @@
   description: Lint rust sources
   entry: cargo clippy
   language: rust
+  language_version: nightly
   args: ["--", "-D", "warnings"]
   types: [rust]
   pass_filenames: false
